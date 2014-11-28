@@ -43,3 +43,37 @@
   max-width: 1000px !important;
 }
 
+/**
+ * Bouncing Notification Indicator
+ *
+ * https://github.com/muchweb/github-notification-bouncing/
+ */
+
+@keyframes unreadmad0 {
+  to {
+    transform: scale(1.4);
+    opacity: 1;
+  }
+}
+
+@keyframes unreadmad1 {
+  0% {
+    width: 14px;
+    height: 14px;
+    box-shadow: 0 0 8px transparent;
+  }
+  50% {
+    width: 14px;
+    height: 14px;
+    box-shadow: 0 0 8px transparent;
+  }
+}
+
+.mail-status.unread {
+  animation: unreadmad0 .5s ease-out infinite alternate, unreadmad1 60s linear;
+  width:  24px;
+  height:  24px;
+  opacity: 0.9;
+  transform: scale(1);
+  box-shadow: 0 0 8px #4183C4;
+}
