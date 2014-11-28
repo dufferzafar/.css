@@ -1,0 +1,45 @@
+/**
+ * Makes Github Wide.
+ *
+ * Original Copied from: https://github.com/s0undt3ch/wide-my-github/
+ *
+ * Few bits have been changed.
+ */
+
+.container {
+  width: 90% !important;
+}
+
+.gh-header-back {
+  margin-left: 0px !important;
+}
+
+.container > .repository-content,
+.container > .repo-container > .repository-content {
+  width: 83% !important;
+}
+
+.container > .with-full-navigation > .repository-content,
+.pull-request-composer .discussion-topic {
+  width: 83% !important;
+}
+
+.column-main, .repo-settings-content, .settings-content,
+.js-new-issue-form > .discussion-timeline-cols > .main {
+  width: 83% !important;
+}
+
+.new-discussion-timeline .discussion-timeline,
+.timeline-new-comment {
+  width: 80% !important;
+  max-width: 100% !important;
+}
+
+.list-group-item-meta .branch-name .css-truncate-target {
+  max-width: 100% !important;
+}
+
+#comments, .comment-holder {
+  max-width: 1000px !important;
+}
+
