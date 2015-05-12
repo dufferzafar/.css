@@ -77,3 +77,25 @@
   transform: scale(1);
   box-shadow: 0 0 8px #4183C4;
 }
+
+/**
+ * Github Avatars
+ *
+ * Original Source: https://github.com/anasnakawa/chrome-github-avatars
+ */
+
+.title .github-avatar {
+  position: absolute;
+  left: 0;
+  top: 6px;
+  border-radius: 4px;
+  width: 32px;
+  height: 32px;
+}
+
+.news .alert.avatar-ready .simple > .octicon {
+  left: 27px !important;
+  z-index: 10;
+  top: 27px;
+  text-shadow: #FFF -1px -1px 0px;
+}
